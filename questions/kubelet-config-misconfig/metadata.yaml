@@ -1,0 +1,7 @@
+name: Kubelet Configuration Misconfiguration
+description: Troubleshoot why node01 is NotReady due to invalid kubelet config.
+tags: ["kubelet", "troubleshooting"]
+setup_script: setup.sh
+verify_script: verify.sh
+cleanup_script: cleanup.sh
+time_limit_minutes: 7

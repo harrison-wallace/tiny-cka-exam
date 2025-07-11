@@ -1,5 +1,6 @@
 name: CronJob Curling Nginx Service Not Working
 description: Troubleshoot why the CronJob 'curl-cron' in namespace 'default', which is supposed to curl an Nginx service every minute, is not working (jobs are failing). Diagnose via logs, fix the command to curl the correct service DNS ('nginx-svc.default.svc.cluster.local'), and ensure curls succeed.
+hint: Check the CronJob's pod logs with 'kubectl logs' and verify the service DNS name.
 tags: ["cronjob", "networking"]
 setup_script: setup.sh
 verify_script: verify.sh

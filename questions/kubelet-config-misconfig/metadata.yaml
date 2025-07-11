@@ -1,5 +1,6 @@
 name: Kubelet Configuration Misconfiguration
 description: Troubleshoot why node01 is NotReady due to invalid kubelet config.
+hint: Check the kubelet logs for errors, verify the kubelet configuration file for syntax issues, and ensure the kubelet service is running correctly.
 tags: ["kubelet", "troubleshooting"]
 setup_script: setup.sh
 verify_script: verify.sh

@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. This is manually updated for now.
 
+## [0.2.0] - 2025-07-11
+### Changed
+- Moved add question functionality into main exam.py file 
+- Added better --help output
+
+### Fixed
+- various issues with question and timer formatting
+- enabled graceful quit via q 
+
+
 ## [0.1.0] - 2025-07-10
 ### Added
 - Initial repo structure with Python CLI (exam.py) using Click for commands: start, add-question, history.

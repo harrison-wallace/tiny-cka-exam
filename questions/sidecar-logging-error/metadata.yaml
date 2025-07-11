@@ -1,5 +1,6 @@
 name: Sidecar Logging Configuration Error
 description: Troubleshoot why the logging sidecar in pod 'logging-pod' in namespace 'sidecar-ns' is not collecting logs from the main nginx container. Fix the sidecar's volume mount path to '/var/log/nginx', and verify logs are being tailed by checking the sidecar logs.
+hint: Inspect the pod's spec with 'kubectl describe pod' and check the sidecar container's logs.
 tags: ["sidecar", "logging"]
 setup_script: setup.sh
 verify_script: verify.sh
